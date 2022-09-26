@@ -9,11 +9,11 @@
 
 int main()
 {
-    short n1;
-    int n2;
-    long n3;
+    short n1;           // 2 bytes
+    int n2;             // 4 bytes
+    long n3;            // 8 bytes
     
-    std::cout << "Min/Max of Integer Types\n";
+    std::cout << "Min/Max of Integer Types\n";  
     std::cout << "\tshort min:\t" << SHRT_MIN << std::endl;
     std::cout << "\tshort max:\t"<< SHRT_MAX << std::endl;
     std::cout << "\tint min:\t" << INT_MIN << std::endl;
